@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Urok</title>
+  <style>
+    body {
+      height: 1800px;
+      background-color: black;
+      font-family: sans-serif;
+      color: white;
+      font-size: 17px;
+      margin: -14px;
+      text-align: center;
+    }
+    .box {
+      width: 80%;
+      height: 1800px;
+      background-color: #170c48;
+      margin: -10px auto;
+      z-index: 99;
+    }
+    .boxInBoxOne {
+      margin: -10px auto;
+      width: 100%;
+      height: 700px;
+      background-image: url('https://img.gazeta.ru/files3/943/13134943/Depositphotos_71080145_l-2015-pic4_zoom-1500x1500-90328.jpg');
+      z-index: 1;
+      opacity: 0.5;
+      color: white;
+    }
+    .boxInBoxOne > ul {
+      display: flex;
+      list-style-type: none;
+    }
+    #logo {
+      font-size: 40px;
+      margin: 40px 400px 0px 30px;
+      font-weight: 600;
+    }
+    #normal {
+      margin: 40px 30px 0px 30px;
+    }
+    #ends {
+      margin: 25px 20px 0px 20px;
+      width: 120px;
+      height: 50px;
+      background-color: #59b2f7;
+      border-radius: 5px;
+    }
+    #ends:hover {
+      background-color: #a8dee6;
+      color: #1c1827;
+      box-shadow: 10px -5px 10px #4b6d75;
+    }
+    .zentr {
+      font-size: 30px;
+      color: #f8f8fb;
+      margin: 20% auto;
+    }
+    #abzac {
+      font-weight: 600;
+      font-size: 60px;
+      margin-top: -30px;
+    }
+    .theTwoPage {
+      width: 100%;
+      height: 320px;
+      background-color: #9f2c7f;
+      opacity: 0.2;
+    }
+    ul.windows {
+      list-style-type: none;
+      margin: 0;
+    }
+    ul.windows li {
+      display: flex;
+    }
+    .onePurpose {
+      width: 200px;
+      height: 320px;
+      background-color: red;
+      margin: 0px 20px 0px 0px;
+    }
+    .twoPurpose {
+      width: 200px;
+      height: 320px;
+      background-color: green;
+      margin: 0px 20px 0px 270px;
+    }
+    .threePurpose {
+      width: 200px;
+      height: 320px;
+      background-color: blue;
+      margin: 0px 20px 0px 660px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="boxInBoxOne">
+      <ul>
+        <li id="logo">Gladiator</li>
+        <li id="normal">Intro</li>
+        <li id="normal">Servixes</li>
+        <li id="normal">Team</li>
+        <li id="normal">Pricing</li>
+        <li id="ends"><div class="buttonsSignUp"><p>Sign Up</p></div></li>
+      </ul>
+      <div class="zentr">
+        <p id="sagolofok">Take car of your body.<br></p>
+        <p id="abzac"> It's the only place you have to live. |</p>
+      </div>
+    <div class="theTwoPage">
+    </div>
+    </div>
+  </div>
+</body>
+</html>
